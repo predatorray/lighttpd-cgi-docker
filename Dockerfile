@@ -22,7 +22,7 @@ FROM bash:4.4
 RUN set -ex && \
     apk add --no-cache lighttpd && \
     rm -rf /var/log/lighttpd /etc/lighttpd /var/www && \
-    mkdir -p /var/www/cgi-bin
+    mkdir -p /var/www/cgi-bin /etc/lighttpd/conf.d
 
 COPY lighttpd.conf /etc/lighttpd/
 COPY docker-entrypoint.sh /usr/local/bin/
