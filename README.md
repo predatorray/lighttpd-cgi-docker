@@ -35,7 +35,7 @@ The configuration file `lighttpd.conf` is located on `/etc/lighttpd/lighttpd.con
 COPY ./your-lighttpd.conf /etc/lighttpd/lighttpd.conf
 ```
 
-Or, instead of overwriting the main configuration file, you can copy a configuration to the directory '/etc/lighttpd/conf.d/', where all files having suffix `.conf` will be included automatically.
+Or, instead of overwriting the main configuration file, you can copy a configuration to the directory `/etc/lighttpd/conf.d/`, where all files having suffix `.conf` will be included automatically.
 
 See the [lighttpd configuration wiki](https://redmine.lighttpd.net/projects/lighttpd/wiki/TutorialConfiguration) for more information.
 
