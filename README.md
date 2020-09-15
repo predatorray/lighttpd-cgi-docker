@@ -2,7 +2,7 @@
 
 An out-of-the-box lighttpd image for CGI scripts based HTTP server.
 
-This image is available on the Docker Hub [zetaplusae/lighttpd-cgi](https://hub.docker.com/repository/docker/zetaplusae/lighttpd-cgi), and can be pulled from the official Docker registry:
+This image is available on the Docker Hub [zetaplusae/lighttpd-cgi](https://hub.docker.com/r/zetaplusae/lighttpd-cgi), and can be pulled from the official Docker registry:
 
 ```sh
 docker pull zetaplusae/lighttpd-cgi
